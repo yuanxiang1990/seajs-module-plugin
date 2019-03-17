@@ -1,4 +1,6 @@
-/******/ (function(modules) { // webpackBootstrap
+define("fe-common/utopia-test@0.1.5",["fe-common/utopia-cookie@0.0.1"],function(require, exports, module) {
+var fe_common_utopia_cookie_0_0_1 = require("fe-common/utopia-cookie@0.0.1");
+module.exports = /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -93,8 +95,19 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(\"fe-common/utopia-cookie@0.0.1\")\n\n//# sourceURL=webpack:///./test/index.js?");
+eval("var aaa = __webpack_require__(/*! fe-common/utopia-cookie@0.0.1 */ \"fe-common/utopia-cookie@0.0.1\");\nconsole.log(aaa)\n\n//# sourceURL=webpack:///./test/index.js?");
+
+/***/ }),
+
+/***/ "fe-common/utopia-cookie@0.0.1":
+/*!************************************************!*\
+  !*** external "fe_common_utopia_cookie_0_0_1" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = fe_common_utopia_cookie_0_0_1;\n\n//# sourceURL=webpack:///external_%22fe_common_utopia_cookie_0_0_1%22?");
 
 /***/ })
 
-/******/ });
+/******/ })});;

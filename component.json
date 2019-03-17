@@ -1,0 +1,9 @@
+{
+    "group": "fe-common",
+    "name": "utopia-test",
+    "author": "yuanx",
+    "version": "0.1.5",
+    "description": "快速登录组件",
+    "entry": "./index.js",
+    "dependencies": {}
+}
